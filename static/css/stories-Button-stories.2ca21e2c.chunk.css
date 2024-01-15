@@ -1,0 +1,199 @@
+:root{
+    --accent-default: #3880FF;
+    --accent-hover: #4C8DFF;
+    --accent-focus: #276BE3;
+
+    --warning-default: #FFC409;
+    --warning-hover: #FFCA22;
+    --warning-focus: #D2A515;
+    
+    --error-default: #EB445A;
+    --error-hover: #ED576B;
+    --error-focus: #C6172E;
+    
+    --dark-default: #000;
+    --dark-hover: rgba(0, 0, 0, 0.82);
+    --dark-focus: #000; 
+    
+    --success-default: #2DD36F;
+    --success-hover: #42D77D;
+    --success-focus: #28BA62;
+}
+
+button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inder;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button.disabled-btn{
+    cursor: not-allowed;
+}
+
+button.accent.disabled-btn, button.error.disabled-btn, button.warning.disabled-btn,button.dark.disabled-btn{
+   pointer-events: none;
+   background-color: rgba(28, 32, 37, 0.30);
+   color: rgba(0, 0, 0, 0.50);
+}
+
+/* Button Accent  */
+button.accent {
+    background: #3880FF;
+    background: var(--accent-default);
+}
+
+button.accent:hover{
+    background-color: #4C8DFF;
+    background-color: var(--accent-hover);
+}
+
+button.accent:focus{
+    background-color: #276BE3;
+    background-color: var(--accent-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button.accent:focus-visible{
+    background-color: #276BE3;
+    background-color: var(--accent-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+button.accent:active{
+    background-color: #276BE3;
+    background-color: var(--accent-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+
+/* Button Warning  */
+button.warning {
+    background: #FFC409;
+    background: var(--warning-default);
+}
+
+button.warning:hover{
+    background-color: #FFCA22;
+    background-color: var(--warning-hover);
+}
+
+button.warning:focus{
+    background-color: #D2A515;
+    background-color: var(--warning-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button.warning:focus-visible{
+    background-color: #D2A515;
+    background-color: var(--warning-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+button.warning:active{
+    background-color: #D2A515;
+    background-color: var(--warning-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+/* Button Error  */
+button.error {
+    background: #EB445A;
+    background: var(--error-default);
+}
+
+button.error:hover{
+    background-color: #ED576B;
+    background-color: var(--error-hover);
+}
+
+button.error:focus{
+    background-color: #C6172E;
+    background-color: var(--error-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button.error:focus-visible{
+    background-color: #C6172E;
+    background-color: var(--error-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+button.error:active{
+    background-color: #C6172E;
+    background-color: var(--error-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+/* Button Dark  */
+button.dark {
+    background: #000;
+    background: var(--dark-default);
+}
+
+button.dark:hover{
+    background-color: rgba(0, 0, 0, 0.82);
+    background-color: var(--dark-hover);
+}
+
+button.dark:focus{
+    background-color: #000;
+    background-color: var(--dark-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button.dark:focus-visible{
+    background-color: #000;
+    background-color: var(--dark-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+button.dark:active{
+    background-color: #000;
+    background-color: var(--dark-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+
+/* Button Dark  */
+button.success {
+    background: #2DD36F;
+    background: var(--success-default);
+}
+
+button.success:hover{
+    background-color: #42D77D;
+    background-color: var(--success-hover);
+}
+
+button.success:focus{
+    background-color: #28BA62;
+    background-color: var(--success-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button.success:focus-visible{
+    background-color: #28BA62;
+    background-color: var(--success-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+button.success:active{
+    background-color: #28BA62;
+    background-color: var(--success-focus);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+/*# sourceMappingURL=stories-Button-stories.2ca21e2c.chunk.css.map*/
