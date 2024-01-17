@@ -6,9 +6,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "docz": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sys-react-lib": "^1.0.1b",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -18,7 +20,10 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "gh-pages -d build-storybook"
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": [
@@ -54,8 +59,10 @@
     "@storybook/react-webpack5": "^7.6.8",
     "@storybook/test": "^7.6.8",
     "eslint-plugin-storybook": "^0.6.15",
+    "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.8",
+    "typescript": "^5.3.3",
     "webpack": "^5.89.0"
   }
 }
