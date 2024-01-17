@@ -48,6 +48,21 @@ button.small-btn{
     cursor: pointer;
 }
 
+
+button.large-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inder;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
 button.disabled-btn{
     cursor: not-allowed;
 }
@@ -313,4 +328,4 @@ button.success:active{
 }
 
 
-/*# sourceMappingURL=stories-Page-stories.90c806d7.chunk.css.map*/
+/*# sourceMappingURL=stories-Page-stories.929813f6.chunk.css.map*/
