@@ -34,11 +34,25 @@ button{
     cursor: pointer;
 }
 
+button.small-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inder;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+}
+
 button.disabled-btn{
     cursor: not-allowed;
 }
 
-button.accent.disabled-btn, button.error.disabled-btn, button.warning.disabled-btn,button.dark.disabled-btn{
+button.accent.disabled-btn, button.error.disabled-btn, button.warning.disabled-btn,button.dark.disabled-btn, button.success.disabled-btn{
    pointer-events: none;
    background-color: rgba(28, 32, 37, 0.30);
    color: rgba(0, 0, 0, 0.50);
@@ -229,4 +243,4 @@ button.success:active{
 }
 
 
-/*# sourceMappingURL=stories-Header-stories.e78b2b0c.chunk.css.map*/
+/*# sourceMappingURL=stories-Header-stories.09ab7cc5.chunk.css.map*/
